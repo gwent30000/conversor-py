@@ -8,19 +8,19 @@ Projeto simples em Python para conversão de vídeos usando FFmpeg.
 
 1. 📹 import yt_dlp
 
-- 📝 Essa é a biblioteca que faz o download de vídeos
+- Essa é a biblioteca que faz o download de vídeos
 
 2. 🎞️ url = input("Digite a url do seu video: ")
 
-- 📝 Aqui o programa pede pra você digitar o link do vídeo que quer baixar.
+-  Aqui o programa pede pra você digitar o link do vídeo que quer baixar.
 
 3. 🎞️ opcoes = { ... }
 
-- 📝 Esse é um dicionário do modulo com funções de configuração para o downloader:
+-  Esse é um dicionário do modulo com funções de configuração para o downloader:
 
     🎞️ 'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'
 
-- 📝 Pede pra baixar o melhor vídeo no formato mp4 junto com o melhor áudio em m4a.Também junta os dois,e se der erro ele baixa o mp4 direto.
+-  Pede pra baixar o melhor vídeo no formato mp4 junto com o melhor áudio em m4a.Também junta os dois,e se der erro ele baixa o mp4 direto.
 
     🎞️ 'merge_output_format': 'mp4'
 
